@@ -1,6 +1,9 @@
 <template>
-  <div class="home bg-white">
+  <div class="home bg-zinc-900">
      <Nav />
+     <div>
+      <h1 class="text-5xl tracking-widest text-center text-white ">C<span>Share</span> </h1>
+     </div>
     <div class="flex w-full" >
       <div class="w-3/4 pt-5 pl-20"> 
        <blogs  v-for="blog in blogs" :key="blog.title" :blog="blog" />

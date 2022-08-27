@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white space-y-2  p-2" >
+  <div class=" space-y-2  p-2" >
         <div class=" flex space-x-5 w-full h-60  bg-gray-800 p-5 border border-opacity-30 border-slate-400 rounded " >
             <router-link to="#" class="w-2/5"> 
                 <img class=" p-2 w-full h-full " :src="blog.blogImg" alt="">

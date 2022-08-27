@@ -1,8 +1,8 @@
 <template>
   <div class="home bg-zinc-900">
      <Nav />
-     <div>
-      <h1 class="text-5xl tracking-widest text-center text-white ">C<span>Share</span> </h1>
+     <div class="px-10 w-3/5 flex justify-center">
+          <h1 class=" text-9xl tracking-widest text-center border-opacity-30  text-white border-b border-gray-100">C<span>Share</span> </h1>
      </div>
     <div class="flex w-full" >
       <div class="w-3/4 pt-5 pl-20"> 

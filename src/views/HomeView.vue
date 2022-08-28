@@ -8,7 +8,7 @@
       <div class="w-3/4 pt-5 pl-20"> 
        <blogs  v-for="blog in blogs" :key="blog.title" :blog="blog" />
       </div>
-      <tags class="w-1/4 pr-10" />
+      
     </div>
    
   </div>
@@ -18,13 +18,13 @@
 // @ is an alias to /src
 
 import Nav from '@/components/NavBar.vue'
-import tags from '@/components/TagS.vue'
+
 import blogs from '@/components/BlogS.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Nav,blogs,tags
+    Nav,blogs,
   },
 data(){
   return{
